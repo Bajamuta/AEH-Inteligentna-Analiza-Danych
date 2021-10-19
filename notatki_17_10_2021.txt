@@ -1,0 +1,47 @@
+INTELIGENTNA ANALIZA DANYCH 17.10.2021
+
+TEAMS > preferowane
+kusmirekwiktor@gmail.com > preferowane, szczególnie prace
+w.kusmirek@vizja.pl
+
+jupyter-notebook
+python3
+matplotlib
+scikit-learn
+pandas
+
+zadania po każdych zajęciach do wykonania i wysłania do kolejnych zajęć (średnio 7pkt za każde)
+zaliczenie - suma punktów za zadania (jak w poprzednim semestrze)
+
+
+LAB1. screeny + wnioski; 2 sprawozdania: (klasyfikatory + metryki) + drzewo decyzyjne
+py -m notebook
+
+
+SPRAWOZDANIE #1: KLASYFIKATORY:
+
+- wyjaśnić klasyfikatory, metryki i macierz pomyłek
+- screeny zadanie 1 + wyjaśnienie
+- zadanie 2: wyjaśnienie tylko
+- zadanie 3 (4) która macierz pomyłek lepsza
+
+MACIERZ POMYŁEK:
+# Confusion matrix
+# TP FP
+# FN TN
+
+# 4. Mamy dwie macierze pomyłek:
+# a) 9 1
+#    0 4
+# b) 4 6
+#    3 1
+# Która macierz pomyłek reprezentuje lepszy model i dlaczego?
+-> Macierz a) reprezentuje lepszy model, ponieważ suma TP i TN jest większa od sumy FP + FN
+
+SPRAWOZDANIE #2: DRZEWO DECYZYJNE:
+- co to drzewo decyzyjne, zbiór trenujący i testujący, maksymalna głębokość
+- skąd dane i jak proces pobierania
+- screeny kodu
+- wyniki kodów (screeny)
+- 5 modeli, ten sam podział na zbiory ale różna głębokość
+- wnioski
