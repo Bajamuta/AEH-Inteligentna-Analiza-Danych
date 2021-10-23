@@ -45,3 +45,27 @@ SPRAWOZDANIE #2: DRZEWO DECYZYJNE:
 - wyniki kodów (screeny)
 - 5 modeli, ten sam podział na zbiory ale różna głębokość
 - wnioski
+
+for index, value in enumerate(fires[2]):
+    if value >= 10:
+        vallist[index] = letters[value]
+
+
+switcher=
+{
+jan: 1,
+feb: 2,
+mar: 3,
+apr: 4,
+may: 5,
+jun: 6,
+jul: 7,
+aug: 8,
+sep: 9,
+oct: 10,
+nov: 11,
+dec: 12,
+}
+key = N
+fires[2][index] = switcher.get(key, "default")
+
