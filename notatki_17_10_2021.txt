@@ -25,6 +25,8 @@ SPRAWOZDANIE #1: KLASYFIKATORY:
 - zadanie 2: wyjaśnienie tylko
 - zadanie 3 (4) która macierz pomyłek lepsza
 
+KLASYFIKATOR: drzewo decyzyjne
+
 MACIERZ POMYŁEK:
 # Confusion matrix
 # TP FP

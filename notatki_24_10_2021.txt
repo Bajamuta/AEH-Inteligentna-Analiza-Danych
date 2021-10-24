@@ -9,3 +9,41 @@ np. 100 kwiatków 1 klasy i 10 kwiatków 2 klasy
 
 - cross walidacja: dużo danych, mogą być niezbalansowanych; stratyfikacja: niezbalansowane dane, mało danych
 - cross walidacja + stratyfikacja: mało danych niezbalansowanych
+
+- inny klasyfikator: las losowy, czyli zbiór drzew decyzyjnych
+
+potem głosowanie: każde drzewo daje odpowiedź i wybieramy 1 odpowiedź
+
+3 metody żeby drzewa w lesie były inne:
+ 1) budujemy drzewa na części całego zbioru np. 80%
+ 2) wymuszamy żeby drzewa miały inny pierwszy atrybut do porównania
+ 3) połączenie 1 i 2
+
+-> znaleźć w dokumentacji ile jest domyślnie drzew w lesie i jakiej głębokości
+-> random forest: zmieniać tylko n_estimators i max_depth, ale nie oba na raz czyli jak zmieniamy n_estimators to stałe max_depth
+
+2 - 2
+10 - 2
+30 - 2
+50 - 2
+70 - 2
+
+10 - 1
+10 - 3
+10 - default
+
+
+- klasyfikator: naive bayes, Naiwny klasyfikator bayesowski
+
+prawdopodobieństwo a priori - przed wystąpieniem zdarzenia
+P(cz) = 10 / 10+5 = 2/3
+P(ziel) = 5 / 10+5 = 1/3
+
+P(cz) = P(ziel) = 1/2
+
+2/3 * 1/2 ? 1/3 * 1/2 -> większe prawdopodobieństwo że czerwona
+
+
+- metoda "liczymy odległość", uważać na rząd wielkości + zakładamy że wszystkie cechy są równorzędne (wprowadzenie wagi); uwaga na właściwości sztucznie obliczone z innych wartości
+
+!!! - na koniec porównać jak poradził sobie klasyfikator lasu a jak naiwny bayesa
