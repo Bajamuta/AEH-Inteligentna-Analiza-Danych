@@ -1,0 +1,11 @@
+INTELIGENTNA ANALIZA DANYCH 24.10.2021
+
+- niezbalansowany zbiór danych
+np. 100 kwiatków 1 klasy i 10 kwiatków 2 klasy
+
+- stratyfikacja, minimum ileś z każdego rodzaju przy podziale na trenujące i testujące; branie pod uwagę z jakiej klasy są dane
+
+- cross walidacja ?
+
+- cross walidacja: dużo danych, mogą być niezbalansowanych; stratyfikacja: niezbalansowane dane, mało danych
+- cross walidacja + stratyfikacja: mało danych niezbalansowanych
