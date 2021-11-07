@@ -5,7 +5,7 @@ np. 100 kwiatków 1 klasy i 10 kwiatków 2 klasy
 
 - stratyfikacja, minimum ileś z każdego rodzaju przy podziale na trenujące i testujące; branie pod uwagę z jakiej klasy są dane
 
-- cross walidacja ?
+- cross walidacja: dzielenie na mniejsze zbiory i liczymy średnią np. na 5 zbiorów, 1 jest trenujący i 4 testujące a potem inny jest trenujący itd.
 
 - cross walidacja: dużo danych, mogą być niezbalansowanych; stratyfikacja: niezbalansowane dane, mało danych
 - cross walidacja + stratyfikacja: mało danych niezbalansowanych
@@ -46,4 +46,4 @@ P(cz) = P(ziel) = 1/2
 
 - metoda "liczymy odległość", uważać na rząd wielkości + zakładamy że wszystkie cechy są równorzędne (wprowadzenie wagi); uwaga na właściwości sztucznie obliczone z innych wartości
 
-!!! - na koniec porównać jak poradził sobie klasyfikator lasu a jak naiwny bayesa
+!!! - na koniec porównać jak poradził sobie klasyfikator lasu a jak naiwny bayesowski

@@ -1,0 +1,18 @@
+INTELIGENTNA ANALIZA DANYCH 07.11.2021
+
+klasyfikacja tekstu, np. spam
+słownik i mapowanie
+
+Bardzo lubię moje koleżanki i moich kolegów.
+bardzo lubić mój koleżanka i mój kolega
+bardzo - 1, => 1/4
+lubić - 1, => 1/4
+---mój - 2, 
+koleżanka - 1, => 1/4
+---i - 1, kolega - 1 => 1/4
+
+minusy: analizuje pojedyncze słowa a nie zlepki, nie sprawdza zaprzeczenia, mogłaby być waga dla słów, że np. dla kat. 1 jest ważniejsze to słowo a dla kat. 2 mniej ważne
+
+
+przetrenowanie modelu
+csv -> comma separated; tsv -> tabular separated
