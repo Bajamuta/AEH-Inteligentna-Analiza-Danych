@@ -1,0 +1,14 @@
+INTELIGENTNA ANALIZA DANYCH 12.12.2021
+
+regresja liniowa - nie przypisanie tylko dodanie nowej wartości liczbowej
+np. na podstawie wzrostu określamy wiek ucznia
+
+MAE - błąd tej nowej wartości którą dodajemy np wzrost
+MSE - kwadrat MAE? i podzielić...
+RMSE - pierwiastek z MSE
+
+sprawozdanie do zajęć w styczniu!
+
+
+grupowanie
+regresja wielomianowa
